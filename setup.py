@@ -8,27 +8,26 @@ setup(
     packages=find_packages(exclude=('ussd_airflow',)),
     url='https://github.com/mwaaas/ussd_airflow',
     install_requires=[
-        'Django>=2.2,<4.2',
+        'Django>=2.2,<3.2',
         'djangorestframework>=3.10,<4.0',
-        'structlog<22.3.0',
-        'jinja2<3.1.2',
-        'PyYAML>=5.1,<6.0',
-        'PyStaticConfiguration==0.11.1',
-        'requests<2.28.2',
+        'structlog<21.2.0',
+        'jinja2<2.12',
+        'PyYAML>=5.1,<5.5',
+        'PyStaticConfiguration==0.10.5',
+        'requests<2.26',
         'PyConfigure==0.5.9',
-        
     ],
     extras_require={
         'test': [
-            'pytest-django>=3.5,<4.5.2',
+            'pytest-django>=3.5,<4.3',
             'freezegun',
             'psycopg2-binary',
-            'pytest-cov>=2.7,<4.0.0',
+            'pytest-cov>=2.7,<2.12',
         ],
         'docs': [
-            'sphinx>=2.2,<6.1.3',
-            'sphinx-autobuild>=0.7,<2021.3.14',
-            'sphinx_rtd_theme>=0.4,<1.2.0',
+            'sphinx>=2.2,<3.6',
+            'sphinx-autobuild>=0.7,<2020.10',
+            'sphinx_rtd_theme>=0.4,<0.6',
         ]
     },
     include_package_data=True,
