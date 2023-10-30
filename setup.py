@@ -8,7 +8,7 @@ setup(
     packages=find_packages(exclude=('ussd_airflow',)),
     url='https://github.com/mwaaas/ussd_airflow',
     install_requires=[
-        'Django>=2.2,<3.2',
+        'Django>=2.2,<4.1.7',
         'djangorestframework>=3.10,<4.0',
         'structlog<21.2.0',
         'jinja2<2.12',
