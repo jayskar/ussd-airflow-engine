@@ -12,7 +12,7 @@ setup(
         'djangorestframework>=3.10,<4.0',
         'structlog<22.3.0',
         'jinja2<3.1.2',
-        'PyYAML>=5.1,<6.0,
+        'PyYAML>=5.1,<6.0',
         'PyStaticConfiguration==0.11.1',
         'requests<2.28.2',
         'PyConfigure==0.5.9',
