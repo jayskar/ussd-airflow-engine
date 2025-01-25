@@ -3,7 +3,7 @@ from django.core.management import CommandError
 from django.core.management import call_command
 from django.conf import settings
 
-path = settings.BASE_DIR + '/ussd_airflow_app_tpl'
+path = settings.BASE_DIR / 'ussd_airflow_app_tpl'
 
 
 class Command(BaseCommand):
